@@ -1,5 +1,6 @@
 # dokuwiki__lorearchive
 The template for Dokuwiki, used in the Lore Archive.
+_A lightweight, open-source wiki of Blue Archive lore._
 
 
 ## Contributing to other parts of the Lore Archive Wiki
