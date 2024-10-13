@@ -50,6 +50,25 @@ function _tpl_detailtools() {
     echo tpl_action('img_backto', 1, 'li', 1);
 }
 
+
+/* WARNING! THE FOLLOWING FUNCTION WORKS WHEN NO URL REWRITING IS USED. Probably going to deprecate in Alpha. */
+
+
+function _tpl_getwl($pageId, $headingId = null) {
+    // Construct the link using relative URL format for DokuWiki
+    $link = '/doku.php?id=' . $pageId;
+
+    if ($headingId) {
+        // Append heading if provided
+        $link .= '#' . $headingId;
+    }
+
+    return $link;
+}
+
+
+
+
 /*Following code are from https://github.com/magnetde/dokuwiki-tailwind/tree/cd68fd0ebee8c46d8257f1af5a78a130c7437d89 */
 
 /**
@@ -149,5 +168,4 @@ function _tpl_getTOC() {
 
     return $content;
 }
-
 
