@@ -1,0 +1,76 @@
+#dokuwiki__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8vh;
+    z-index: 1000;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #c0c0c0;
+}
+
+
+
+#dokuwiki__header .headercontent {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+#dokuwiki__header .logo {
+    flex: 0 0 auto;
+    margin-right: 20px;
+
+}
+
+#dokuwiki__header .logo img {
+    height: 7vh;
+    width: auto;
+}
+
+
+#dokuwiki__header .headerlinks {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+
+.headerlinks a {
+    margin-right: 1em; 
+}
+
+
+
+
+
+#dokuwiki__header .headersearch {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#dokuwiki__header #qsearch__in {
+
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 2px solid #c0c0c0;
+    height: 2.5em;
+    width: 100%;
+    border-radius: 0.3em;
+}
+
+
+
+
+#dokuwiki__header #headeradmin, #dokuwiki__header #loginbutton {
+    margin-left: 20px;
+}
