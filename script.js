@@ -1,3 +1,11 @@
+/*
+This file provides Javascript code for button functions. Requires polishing.
+
+@author Cieron <cirrow@proton.me>
+
+*/
+
+
 document.addEventListener("DOMContentLoaded", function() {
   let url = window.location.href;
 
