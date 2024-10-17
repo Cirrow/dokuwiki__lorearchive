@@ -1,0 +1,157 @@
+/**
+ * This file provides styling for everything which surround the wiki article. Some are waiting to be transferred to the design.css file.
+ *
+ * @author Anika Henke <anika@selfthinker.org>
+ * @author Cieron <cirrow@proton.me>
+ */
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+}
+
+#dokuwiki__site {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* ------------- HEADER ------------- */
+
+
+
+
+
+
+
+
+
+
+
+#dokuwiki_nonheader {
+    margin-top: 8vh;
+    display: flex;
+    flex: 1;
+
+}
+
+
+
+#dokuwiki__aside {
+    border-right: 2px solid #c0c0c0;
+    height: calc(100vh - 8vh); /* 100% of the viewport height minus the header height */
+    overflow-y: auto;
+    position: sticky;
+    top: 8vh; /* Sidebar stays below the header */
+    width: __sidebar_width__;
+
+}
+
+#dokuwiki__aside > .pad {
+
+    padding: 0.5em;
+
+}
+
+
+#sidebarOffcanvas img {
+    max-height: 10vh;
+    width: auto;
+}
+
+
+
+#dokuwiki__content {
+
+    padding: 0 4em 0 4em;
+
+}
+
+main {
+    flex: 1;
+    padding-top: 1em;
+    overflow-y: visible;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.page {
+
+    padding: 2em 1em 0 0em;
+    overflow-y: visible;
+}
+
+
+.toc {
+    position: sticky;
+    top: 10vh; /* Stick the TOC below the header */
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.toc > .pad {
+    padding: 1em;
+}
+
+article {
+    margin-top: 2.5em;
+    padding-bottom: 1em;
+}
+
+
+
+#dw_toc {
+
+    margin: 0 !important;
+    position: sticky;
+    top: 0;
+
+}
+
+
+.dw__toc {
+
+    background-color: transparent !important;
+    margin: 0 !important;
+
+}
+
+#insitu__fn {
+    padding: 0.7em;
+    max-width: 365px;
+    border-radius: 6px;
+}
+
+
+article .footertext {
+
+    padding-top: 2em;
+    text-align: center;
+
+}
+
+
+
+
+@media (max-width: 1024px)
+{
+    .dokuwiki__aside {
+
+        display: none;
+    }
+}
