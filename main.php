@@ -96,14 +96,16 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($
 
 
                                 <article>
-                                    <!-- wikipage start -->
-                                    <?php tpl_content(false) /* the main content */ ?>
-                                    <!-- wikipage stop -->
+                                    <div class="wikiarticle"
+                                        <!-- wikipage start -->
+                                        <?php tpl_content(false) /* the main content */ ?>
+                                        <!-- wikipage stop -->
 
-                                     <div class="footertext">
-                                        <p><em>Every article is a WIP and anything written may not be accurate or up to date.<br>All images used in this wiki belong to their respective owners</em>.</p>
+                                        <div class="footertext">
+                                            <p><em>Every article is a WIP and anything written may not be accurate or up to date.<br>All images used in this wiki belong to their respective owners</em>.</p>
+                                        </div>
+                                
                                     </div>
-
                                 </article>
                                 
                                 <div class="clearer"></div>
