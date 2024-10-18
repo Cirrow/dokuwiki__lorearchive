@@ -34,6 +34,29 @@
 /* hx margin-left = (1 / font-size) * .levelx-margin */
 
 
+/* Image behaviour on small screens */
+@media(max-width: 700px) {
+
+    
+    .level1, .level2, .level3, .level4, .level5, .level6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .dokuwiki .thumb2 {
+        display: flex;
+        align-items: center;
+        margin: auto !important;
+        margin-bottom: 1em !important;
+
+    }
+}
+
+
+
 
 
 
