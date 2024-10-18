@@ -68,14 +68,14 @@ h3 {
 
 }
 #dw__toc h3 {
-    font-size: 1.125em;
+    font-size: 1.125em; /* Font size change when part of TOC */
 }
 
 
 
 h4 {
-    font-size: 1.125em;
-    margin: 0 0 1.0em;
+    font-size: 1.3em;
+    margin: 2em 0 2em;
 }
 h5 {
     font-size: 1.08em;
