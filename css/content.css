@@ -53,6 +53,17 @@
         margin-bottom: 1em !important;
 
     }
+
+    .plugin_wrap.group {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .plugin_wrap.wrap_column {
+        width: 100% !important;
+    }
+
 }
 
 
