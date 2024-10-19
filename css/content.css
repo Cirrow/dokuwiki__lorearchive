@@ -67,6 +67,10 @@
 }
 
 
+/* Table image behaviour */
+table img {
+    margin: 0 !important;
+}
 
 
 
