@@ -22,9 +22,9 @@ if (!defined('DOKU_INC')) die(); /* Must be run from within DokuWiki */
         </div>
 
         <div class="headerlinks d-none d-lg-inline">
-            <a href="<?php echo wl('changelog') ?>">CHANGELOG</a> <!--wl('foo') generates a wikilink which points to the page with id "foo" -->
-            <a href="<?php echo wl('our_team') ?>">ABOUT</a>
-            <a href="<?php echo wl('prealpha') ?>">PRE-ALPHA</a>  
+            <a href="<?php echo wl('changelog') ?>" class="headerlink">CHANGELOG</a> <!--wl('foo') generates a wikilink which points to the page with id "foo" -->
+            <a href="<?php echo wl('our_team') ?>" class="headerlink">ABOUT</a>
+            <a href="<?php echo wl('prealpha') ?>" class="headerlink">PRE-ALPHA</a>  
         </div>
 
         <button type="button" class="btn d-inline d-xl-none" data-bs-toggle="modal" data-bs-target="#dokuwiki__searchModal">
