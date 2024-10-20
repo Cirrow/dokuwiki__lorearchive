@@ -38,7 +38,7 @@
 @media(max-width: 700px) {
 
     
-    .level1, .level2, .level3, .level4, .level5, .level6 {
+    .dokuwiki .page div.level1, div.level2, div.level3, div.level4, div.level5, div.level6 {
         display: flex;
         flex-direction: column;
         justify-content: center;

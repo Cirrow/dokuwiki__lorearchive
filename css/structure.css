@@ -28,18 +28,6 @@ body {
 
 
 
-/* ------------- HEADER ------------- */
-
-
-
-
-
-
-
-
-
-
-
 #dokuwiki_nonheader {
     margin-top: 8vh;
     display: flex;
@@ -115,9 +103,9 @@ article {
 
 
 
-#dw_toc {
+#dw__toc {
 
-    margin: 0 !important;
+    margin: 2em 0 0 0 !important;
     position: sticky;
     top: 0;
 
