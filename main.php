@@ -1,6 +1,6 @@
 <?php
 /**
- * DokuWiki Frontend(template) for Lore Archive
+ * DokuWiki Frontend(template) for Lore Archive // Pre-alpha privacy configuration
  *
  * @author   Cieron <cirrow@proton.me>
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)
@@ -11,6 +11,7 @@ if (!defined('DOKU_INC')) die();
 @require_once(dirname(__FILE__).'/tpl_functions.php'); /* include hook for template functions */
 
 $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($_SERVER['REMOTE_USER']) ); /* PHP boolean variable to store information. */
+$isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current user is an admin. */
 ?>
 
 <!DOCTYPE html>
@@ -54,6 +55,8 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($
 
 
 <body>
+
+<?php if(!empty($_SERVER['REMOTE_USER'])): ?>
 
     <div id="dokuwiki__site" class="<?php echo tpl_classes() /*display wiki info in the class setion, RQ */ ?>">
 
@@ -178,6 +181,18 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($
             <div class="clearer"></div>
         </div>
     </div>
+
+
+<?php else: ?>
+
+    <?php require('surrounding/header/header.php') ?>
+
+    <div style="margin-top: 10vh;">
+        <?php _tpl_usertools() ?>
+        <?php tpl_content(false) ?>
+    </div>
+
+<?php endif ?>
 
 
 

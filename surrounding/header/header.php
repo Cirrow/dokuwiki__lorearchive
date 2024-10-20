@@ -10,6 +10,7 @@
 if (!defined('DOKU_INC')) die(); /* Must be run from within DokuWiki */
 ?>
 
+<?php if(!empty($_SERVER['REMOTE_USER'])): ?>
 <header id="dokuwiki__header">
     <div class="headercontent">
 
@@ -58,5 +59,41 @@ if (!defined('DOKU_INC')) die(); /* Must be run from within DokuWiki */
         <?php require_once('aclbuttons.php') ?>
 
 
+
     </div>
 </header>
+
+<?php else: ?>
+<header id="dokuwiki__header">
+    <div class="headercontent">
+
+        <a class="d-inline d-lg-none btn" data-bs-toggle="offcanvas" href="#sidebarOffcanvas" role="button" aria-controls="sidebarOffcanvas">
+            <i class="bi bi-list" style="color: black; font-size: 2em;"></i>
+        </a>
+
+        <div class="logo">
+            <?php tpl_link(wl(),'<img src="'.ml('logo.png').'" alt="'.$conf['title'].'" />','id="dokuwiki__top" ') ?>
+        </div>
+
+
+
+        <button type="button" class="btn d-inline d-xl-none" data-bs-toggle="modal" data-bs-target="#dokuwiki__searchModal">
+            <i class="bi-search" style="font-size: 1.3em;"></i>
+        </button>
+
+
+
+
+        <a href="https://github.com/Cirrow/dokuwiki__lorearchive" target="_blank" rel="noopener noreferrer">
+            <i class="bi-github" style="color: black; font-size: 1.9em;"></i>
+        </a>
+
+        <?php require_once('aclbuttons.php') ?>
+
+
+
+    </div>
+</header>
+
+
+<?php endif ?>
