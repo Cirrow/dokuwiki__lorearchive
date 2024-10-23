@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/5efff69b-cb96-4190-b7cc-8d23cd389c5d)
+![image]()
+<img src="https://github.com/user-attachments/assets/5efff69b-cb96-4190-b7cc-8d23cd389c5d" alt="drawing" width="200"/>
 
 # dokuwiki__lorearchive
 The template for Dokuwiki, used in the Lore Archive.
