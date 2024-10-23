@@ -17,5 +17,11 @@ The wiki's ultimate goal is to build a place where Blue Archive lore can be easi
 ## Contributing to other parts of the Lore Archive Wiki
 
 
-_To contribute to the sidebar code of Lore Archive, visit
+_To contribute to the sidebar code of Lore Archive, visit_
 _To contribute to the wiki content of Lore Archive, visit_
+
+## Contributing to the Lore Archive frontend
+
+Even though I call it a "Lore Archive Frontend", you must remember that the Lore Archive is a wiki powered by [DokuWiki](https://dokuwiki.org) at its core. Therefore, this frontend is inevitably a DokuWiki [Template](https://www.dokuwiki.org/template). Many PHP functions provided by DokuWiki (DokuWiki core functions) are throughout the files, and they have short, inline comments to describe their use (if not, wait until they do. I am still adding them).
+
+To further read how the system works, read the CONTRIBUTING.md file.
