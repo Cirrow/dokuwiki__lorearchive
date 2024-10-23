@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/5efff69b-cb96-4190-b7cc-8d23cd389c5d)
+
 # dokuwiki__lorearchive
 The template for Dokuwiki, used in the Lore Archive.
 _A lightweight, open-source wiki of Blue Archive lore._
