@@ -11,7 +11,7 @@
 
 
 
-The wiki's ultimate goal is to build a place where Blue Archive lore can be easily navigated through and accessed. The frontend mirrors that decision and hence built upon that foundation. It provides the maximum ease-of-access with no tradeoffs for modern looks, thanks to its sidebar, where all the lore lives inside.
+The wiki's ultimate goal is to build a place where Blue Archive lore can be easily navigated through and accessed. The frontend mirrors that decision and hence built upon that foundation. It provides the maximum ease-of-access with no tradeoffs for modern looks and readability, thanks to its sidebar, where all the lore lives inside.
 
 
 ## Contributing to other parts of the Lore Archive Wiki
