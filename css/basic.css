@@ -47,13 +47,11 @@ h6 {
 
 
 h1 {
-    font-family: monospace;
     font-weight: bold;
     font-size: 2.7em;
     margin: 0 0 0.444em;
 }
 h2 {
-    font-family: monospace;
     font-weight: bold;
     font-size: 1.8em;
     margin: 0 0 0.666em;
@@ -61,6 +59,7 @@ h2 {
     border-bottom: 1px solid #c0c0c0
 }
 h3 {
+    font-weight: bold;
     font-size: 1.5em;
     margin: 0 0 0.888em;
     padding-bottom: 0.1em;

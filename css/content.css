@@ -38,7 +38,7 @@
 @media(max-width: 700px) {
 
     
-    .dokuwiki .page div.level1, div.level2, div.level3, div.level4, div.level5, div.level6 {
+    .dokuwiki .page div.level1, div.level2, div.level3, div.level4, div.level5, div.level6, .wikicontent table.columns-plugin {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -64,7 +64,22 @@
         width: 100% !important;
     }
 
+    .plugin_wrap {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    td.columns-plugin {
+        display: block;
+        position: relative;
+        width: 100% !important;
+        padding: 0 !important;
+
+    }
+
+
 }
+
 
 
 /* Table image behaviour */

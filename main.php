@@ -11,8 +11,9 @@ if (!defined('DOKU_INC')) die();
 @require_once(dirname(__FILE__).'/tpl_functions.php'); /* include hook for template functions */
 
 $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($_SERVER['REMOTE_USER']) ); /* PHP boolean variable to store information. */
-$isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current user is an admin. */
+$isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current logged in user is an admin. */
 ?>
+
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $conf['lang'] ?>" lang="<?php echo $conf['lang'] ?>" dir="<?php echo $lang['direction'] ?>" class="no-js">
@@ -98,7 +99,7 @@ $isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current user i
                                 <?php endif ?>
 
 
-                                <article>
+                                <article class="wikicontent">
                                     <!-- wikipage start -->
                                     <?php tpl_content(false) /* the main content */ ?>
                                     <!-- wikipage stop -->
@@ -116,6 +117,8 @@ $isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current user i
                                 <?php tpl_flush() ?>
                                 <?php tpl_toc() ?>
                             </div>
+
+
                         </div>
                     </main>
                 </div><!--row-->
@@ -203,7 +206,6 @@ $isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current user i
     <div class="no"><?php tpl_indexerWebBug() /* provide DokuWiki housekeeping, required in all templates */ ?></div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
 
 
 
