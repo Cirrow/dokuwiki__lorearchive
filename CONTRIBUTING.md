@@ -1,6 +1,6 @@
 # Contributing to the Lore Archive Wiki (LAW)
 ## Prerequisites
-To effectively contribute to the frontend code, it is recommended you are familiar with the **HTML** and **CSS** syntax and workflow. PHP is not required _per se_, but it can make your time contributing a whole lot less confusing. Javascript knowledge is not _required_. Just like myself. I can't code JS for ****.
+To effectively contribute to the frontend code, it is recommended you are familiar with the **HTML** and **CSS** syntax and workflow. PHP is not required _per se_, but it can make your time contributing a whole lot less confusing (and a lot more effective, even). Javascript knowledge is not _required_. Just like myself. I can't code JS for ****.
 
 ## Inline comments for PHP functions
 Many PHP functions come with inline comments. This is to aid your contributions to the frontend. See, for DokuWiki to properly operate on the template, it inevitably requires PHP code to be present.
