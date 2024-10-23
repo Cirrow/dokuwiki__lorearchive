@@ -2,9 +2,10 @@
   <img src="https://github.com/user-attachments/assets/5efff69b-cb96-4190-b7cc-8d23cd389c5d" alt="drawing" width="200"/>
 </p>
 
-# dokuwiki__lorearchive
-The template for Dokuwiki, used in the Lore Archive.
+<div align="center">
+<h1>Lore Archive Wiki</h1>
 _A lightweight, open-source wiki of Blue Archive lore._
+</div>
 
 
 ## Contributing to other parts of the Lore Archive Wiki
