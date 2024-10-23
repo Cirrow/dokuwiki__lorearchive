@@ -4,7 +4,7 @@
 
 <div align="center">
 <h1>Lore Archive Wiki</h1>
-_A lightweight, open-source wiki of Blue Archive lore._
+<em>A lightweight, open-source wiki of Blue Archive lore.</em>
 </div>
 
 
