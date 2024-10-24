@@ -63,11 +63,11 @@ h3 {
     font-size: 1.5em;
     margin: 0 0 0.888em;
     padding-bottom: 0.1em;
-    border-bottom: 1px solid #c0c0c0
 
 }
 #dw__toc h3 {
     font-size: 1.125em; /* Font size change when part of TOC */
+    border-bottom: none;
 }
 
 

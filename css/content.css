@@ -87,6 +87,11 @@ table img {
     margin: 0 !important;
 }
 
+/* Carousel titles*/
+.mikiop.mikiop-carousel-caption-title {
+    color: white !important;
+}
+
 
 
 

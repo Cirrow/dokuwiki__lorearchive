@@ -13,15 +13,26 @@
 }
 
 
-
 #dokuwiki__header .headercontent {
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 0 20px;
+    padding: 0 1rem 0 2rem;
 }
+
+
+.headercontent a:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+/* For tab users */
+a:focus-visible {
+  outline: 2px solid gray;
+  outline-offset: 4px;
+}
+
 
 #dokuwiki__header .logo {
     flex: 0 0 auto;
@@ -43,6 +54,8 @@
 
 
 .headerlinks a {
+    color: black;
+    font-size: 1.15em;
     margin-right: 1em; 
 }
 
@@ -52,7 +65,7 @@
 }
 
 .headerlink:hover {
-    color: black;
+    color: blue;
     text-decoration: none !important;
 
 }

@@ -10,10 +10,11 @@
 #dw__toc 
 
 {
-    float: right;
-    margin: 0 0 1.4em 1.4em;
+    float: left;
+    margin: 1em 0 1.4em 1.4em;
     max-width: 100%;
     color: inherit;
+    border-left: 1px solid grey;
 }
 
 

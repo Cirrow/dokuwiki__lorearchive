@@ -41,7 +41,6 @@ $isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current logged
         });
     </script> <!-- Initializes bootstrap tooltips. -->
 
-    
 
 
 
@@ -81,7 +80,14 @@ $isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current logged
                         <?php tpl_flush() /* flush the output buffer */ ?>
 
                         <div class="row">
-                            <div id="dokuwiki__page" class="col-xxl-10 col-xl-12 page <?php echo _tpl_page_classes() ?> ">
+                            <?php if($ID != "home") { 
+                            echo '<div id="dokuwiki__page" class="col-xxl-9 col-xl-12 page <?php echo _tpl_page_classes() ?> ">';
+                            
+                            } else {
+                                echo '<div id="dokuwiki__page" class="col-xxl-12 col-xl-12 page <?php echo _tpl_page_classes() ?> ">';
+                            }
+                            
+                            ?>
 
                     
 
@@ -113,11 +119,12 @@ $isAdmin = $INFO['isadmin']; /* Quite self-explanatory. Checks if current logged
                                 <div class="clearer"></div>
                             </div>
 
-                            <div class="col-xxl-2 d-none d-xxl-block toc">
+                            <?php if($ID != "home"): ?>
+                            <div class="col-xxl-3 d-none d-xxl-block toc">
                                 <?php tpl_flush() ?>
                                 <?php tpl_toc() ?>
                             </div>
-
+                            <?php endif ?>
 
                         </div>
                     </main>

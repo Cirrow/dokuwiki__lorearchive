@@ -19,7 +19,7 @@ if (!defined('DOKU_INC')) die(); /* Must be run from within DokuWiki */
         </a>
 
         <div class="logo">
-            <?php tpl_link(wl(),'<img src="'.ml('logo.png').'" alt="'.$conf['title'].'" />','id="dokuwiki__top" ') ?>
+            <?php tpl_link(wl(),'<img src="'.ml('lawbanner.png').'" alt="'.$conf['title'].'" />','id="dokuwiki__top" ') ?>
         </div>
 
         <div class="headerlinks d-none d-lg-inline">
@@ -56,7 +56,7 @@ if (!defined('DOKU_INC')) die(); /* Must be run from within DokuWiki */
             <i class="bi-github" style="color: black; font-size: 1.9em;"></i>
         </a>
 
-        <?php require_once('aclbuttons.php') ?>
+        <?php require('aclbuttons.php') ?>
 
 
 
@@ -88,7 +88,7 @@ if (!defined('DOKU_INC')) die(); /* Must be run from within DokuWiki */
             <i class="bi-github" style="color: black; font-size: 1.9em;"></i>
         </a>
 
-        <?php require_once('aclbuttons.php') ?>
+        <?php require('aclbuttons.php') ?>
 
 
 
