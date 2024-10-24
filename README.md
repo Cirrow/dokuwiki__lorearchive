@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/34da4282-f9d7-4689-9935-a544b0d8f219" alt="drawing" width="200"/>
+  <img src="https://github.com/user-attachments/assets/3a11c9f9-275f-42b6-bf4b-833cc7b4d187" alt="drawing" width="400"/>
 </p>
+
+
 
 <div align="center">
 <h1>Lore Archive Wiki</h1>
