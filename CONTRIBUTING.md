@@ -2,6 +2,8 @@
 ## Prerequisites
 To effectively contribute to the frontend code, it is recommended you are familiar with the **HTML** and **CSS** syntax and workflow. PHP is not required _per se_, but it can make your time contributing a whole lot less confusing (and a lot more effective, even). Javascript knowledge is not _required_. Just like myself. I can't code JS for ****.
 
+Bootstrap is used in the template, and it will be great if you knew how they work, too. You can read the manual [here](https://getbootstrap.com/docs/5.3/getting-started/introduction/). If there are certain classes you are not sure what it does, just ask ChatGPT. Great tool.
+
 ## Inline comments for PHP functions
 Many PHP functions come with inline comments. This is to aid your contributions to the frontend. See, for DokuWiki to properly operate on the template, it inevitably requires PHP code to be present.
 
